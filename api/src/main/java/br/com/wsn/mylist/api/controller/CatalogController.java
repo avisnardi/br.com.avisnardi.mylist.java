@@ -20,7 +20,7 @@ public class CatalogController {
 		this.catalogService = catalogService;
 	}
 	
-	@RequestMapping("/lista")
+	@RequestMapping("/catalog")
 	@ResponseBody
 	public List<Catalog> list() {
 		return catalogService.list();
