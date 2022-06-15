@@ -28,7 +28,7 @@ public class CatalogService {
 	
 	public Catalog insert() {
 		Catalog cat = new Catalog();
-		cat.setName("Animais");
+		cat.setName("Música");
 		Catalog cat1 =  repository.save(cat);
 		return cat1;
 	}
